@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* CENTER LOGIN/REGISTER ONLY */
+.container {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+/* INPUT */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+/* GENERAL BUTTON */
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45%;
+}
+
+/* SPECIAL BUTTONS */
+.clear-btn {
+    width: 100%;
+    background: #f97316;
+    color: white;
+}
+
+.clear-btn:hover {
+    background: #ea580c;
+}
+
+.logout-btn {
+    width: 100%;
+    background: red;
+    color: white;
+}
+
+/* HISTORY */
+.history {
+    margin-top: 20px;
+    text-align: left;
+}
+
+li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* BALANCE */
+.balance p {
+    font-size: 30px;
+    color: #38bdf8;
+}
+
+/* HIDDEN */
+.hidden {
+    display: none;
+}
+
+/* DARK MODE */
+.dark {
+    background: #0f172a;
+    color: white;
+}
+
+.dark .container {
+    background: #111827;
+}
